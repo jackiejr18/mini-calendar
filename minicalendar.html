@@ -34,8 +34,8 @@
 			'September', 'October', 'November', 'December'];
 
 			date.innerHTML = today.getDate();
-			day.innerHTML = today.getDay();
-			month.innerHTML = today.getMonth();
+			day.innerHTML = weekDays[today.getDay()];
+			month.innerHTML = allMonths[today.getMonth()];
 			year.innerHTML = today.getFullYear();
 
 		</script>
